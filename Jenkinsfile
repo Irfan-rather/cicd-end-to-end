@@ -16,7 +16,7 @@ pipeline {
            }
         }
 
-        stage('Build Docker'){
+        stage('Build Docker1'){
             steps{
                 script{
                     sh '''
