@@ -27,7 +27,7 @@ pipeline {
             }
         }
 
-        stage('Push the artifacts'){
+        stage('Push the artifacts1'){
            steps{
                 script{
                     sh '''
